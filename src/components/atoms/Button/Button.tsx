@@ -1,13 +1,17 @@
 type ButtonProps = {
   label: string;
   backgroundColour: string;
+  textColour: string;
 };
 
 export const Button = (props: ButtonProps) => {
-  const { label, backgroundColour } = props;
+  const { label, backgroundColour, textColour } = props;
 
   return (
-    <button className={"button"} style={{ background: backgroundColour }}>
+    <button
+      className={"button"}
+      style={{ background: backgroundColour, color: textColour }}
+    >
       {label}
     </button>
   );

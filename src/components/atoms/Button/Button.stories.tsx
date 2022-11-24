@@ -23,6 +23,7 @@ export const BackgroundColour = Template.bind({});
 BackgroundColour.args = {
   label: "Coloured Button",
   backgroundColour: "red",
+  textColour: "black",
 };
 
 export const CanClickButton = Template.bind({});

@@ -10,7 +10,7 @@ export const Button = (props: ButtonProps) => {
   return (
     <button
       className={"button"}
-      style={{ background: backgroundColour, color: textColour }}
+      style={{ background: backgroundColour, color: textColour, width: "10%" }}
     >
       {label}
     </button>
